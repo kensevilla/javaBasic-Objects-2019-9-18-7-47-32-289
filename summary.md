@@ -51,3 +51,9 @@
 2. 
 3. since the constructor of DerivedFromSuperClassWithDefaultConstructor that takes String as parameter will first call it's superclass with String as the parameter, it will add "SuperClassWithDefaultConstructor.constructor(String)" and then will proceed to adding "DerivedFromSuperClassWithDefaultConstructor.constructor(String)"
 4. None
+
+**should_call_most_derived_methods**
+1. how overriding methods work.https://www.geeksforgeeks.org/overriding-in-java/
+2. 
+3. since DerivedFromBaseClassForOverriding's parent is BaseClassForOverriding, then method getName() can be overridden. So the getName() of DerivedFromBaseClassForOverriding will be excuted.
+4. None
