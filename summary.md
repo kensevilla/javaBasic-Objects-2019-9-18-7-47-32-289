@@ -21,3 +21,9 @@
 2. I assumed that the value closableStateReference.isClosed() is false since close() method was never called.
 3. since it's using try with resource statement then it will always close the resource after the try block. in this case close() method is overridden to set the reference to close which is why closableStateReference.isClosed() will return true.
 4. None
+
+**should_call_closing_even_if_exception_throws**
+1. the use of try with resource statement. https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
+2. I assumed that it will close the first resource which is ClosableWithoutException so I set the expected variable to be "ClosableWithoutException.close", "ClosableWithException.close"
+3. when using multiple resources in try, it will first close the last resource to be included to the first one, so in this case the logger will have {"ClosableWithException.close", "ClosableWithoutException.close"}
+4. None
