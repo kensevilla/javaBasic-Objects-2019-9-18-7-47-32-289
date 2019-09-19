@@ -57,3 +57,9 @@
 2. 
 3. since DerivedFromBaseClassForOverriding's parent is BaseClassForOverriding, then method getName() can be overridden. So the getName() of DerivedFromBaseClassForOverriding will be excuted.
 4. None
+
+**should_call_super_class_methods**
+1. how overriding methods and super class work.https://www.geeksforgeeks.org/overriding-in-java/
+2. 
+3. since the getName() method of DerivedFromBaseClassForOverridingCallingSuper will concat the return of the getName() method of its parent class (BaseClassForOverriding) which is "BaseClassForOverriding" to the string "->DerivedFromBaseClassForOverridingCallingSuper"
+4. None
