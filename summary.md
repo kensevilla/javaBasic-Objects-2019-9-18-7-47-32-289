@@ -15,3 +15,9 @@
 2. since Integer.MAX_VALUE is not the same as the expected output
 3. when using finally block, it will always execute after the try and catch block whether there is an exception or not. so in this case, since the parameter's value passed is 2, it will return 0 based on the logic in the finally.  
 4. None
+
+**should_use_the_try_pattern**
+1. the use of try with resource statement. https://docs.oracle.com/javase/tutorial/essential/exceptions/tryResourceClose.html
+2. I assumed that the value closableStateReference.isClosed() is false since close() method was never called.
+3. since it's using try with resource statement then it will always close the resource after the try block. in this case close() method is overridden to set the reference to close which is why closableStateReference.isClosed() will return true.
+4. None
