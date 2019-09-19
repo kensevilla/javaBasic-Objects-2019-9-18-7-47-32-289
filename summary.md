@@ -43,6 +43,11 @@
 **should_call_super_class_constructor_continued**
 1. how constructor works. https://www.dummies.com/programming/java/how-to-use-a-constructor-in-java/
 2. 
-3. since the constructor of DerivedFromSuperClassWithDefaultConstructor that takes ard as parameter will first call the constructor that will takes no arguments, it will add first "SuperClassWithDefaultConstructor.constructor()" and "DerivedFromSuperClassWithDefaultConstructor.constructor()" as explained in the previous test. But since there is no constructor in DerivedFromSuperClassWithDefaultConstructor that matches the argument, it will then just add "DerivedFromSuperClassWithDefaultConstructor.constructor(int)"
+3. since the constructor of DerivedFromSuperClassWithDefaultConstructor that takes arg as parameter will first call the constructor that will takes no arguments, it will add first "SuperClassWithDefaultConstructor.constructor()" and "DerivedFromSuperClassWithDefaultConstructor.constructor()" as explained in the previous test. But since there is no constructor in DerivedFromSuperClassWithDefaultConstructor that matches the argument, it will then just add "DerivedFromSuperClassWithDefaultConstructor.constructor(int)"
 4. None
 
+**should_call_super_class_constructor_more**
+1. how constructor works. https://www.dummies.com/programming/java/how-to-use-a-constructor-in-java/
+2. 
+3. since the constructor of DerivedFromSuperClassWithDefaultConstructor that takes String as parameter will first call it's superclass with String as the parameter, it will add "SuperClassWithDefaultConstructor.constructor(String)" and then will proceed to adding "DerivedFromSuperClassWithDefaultConstructor.constructor(String)"
+4. None
