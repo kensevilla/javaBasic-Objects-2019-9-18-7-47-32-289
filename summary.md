@@ -63,3 +63,9 @@
 2. 
 3. since the getName() method of DerivedFromBaseClassForOverridingCallingSuper will concat the return of the getName() method of its parent class (BaseClassForOverriding) which is "BaseClassForOverriding" to the string "->DerivedFromBaseClassForOverridingCallingSuper"
 4. None
+
+**should_not_make_you_confused**
+1. how overriding methods and super class work.https://www.geeksforgeeks.org/overriding-in-java/
+2. 
+3. Since the variable nested of type NestedDerivedClassWithName is just set to variable derived of type DerivedFromBaseClassWithName, it already has the value of getName() from NestedDerivedClassWithName which is "NestedDerivedClassWithName"
+4. None
