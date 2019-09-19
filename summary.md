@@ -75,3 +75,9 @@
 2. 
 3. Since DerivedFromBaseClassWithName's superclass is BaseClassWithName and it has getName() method and DerivedFromBaseClassWithName does not override it, executing getName() will directly execute the code in BaseClassWithName
 4. None
+
+**should_use_instance_of_to_determine_inheritance_relationship**
+1. how superclass works. https://www.oreilly.com/library/view/learning-java-4th/9781449372477/ch06s01.html
+2. 
+3. Since NestedDerivedClassWithName is the subclass of DerivedFromBaseClassWithName and DerivedFromBaseClassWithName is the subclass of BaseClassWithName then the variable of type  NestedDerivedClassWithName will be seen as a instance of all the other 2 classes
+4. None
