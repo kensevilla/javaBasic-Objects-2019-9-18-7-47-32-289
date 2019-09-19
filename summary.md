@@ -69,3 +69,9 @@
 2. 
 3. Since the variable nested of type NestedDerivedClassWithName is just set to variable derived of type DerivedFromBaseClassWithName, it already has the value of getName() from NestedDerivedClassWithName which is "NestedDerivedClassWithName"
 4. None
+
+**should_not_make_you_confused_2**
+1. how superclass works. https://www.w3schools.com/java/java_inheritance.asp
+2. 
+3. Since DerivedFromBaseClassWithName's superclass is BaseClassWithName and it has getName() method and DerivedFromBaseClassWithName does not override it, executing getName() will directly execute the code in BaseClassWithName
+4. None
