@@ -130,3 +130,78 @@
 2. At first I do not know how hashcode works
 3. since String already has a predefined method hashCode(), I just used that and added it to the yearOfBirth to get the correct value when comparing
 4. None
+
+**should_point_to_the_same_object**
+1. passing by value or passing by reference. https://www.journaldev.com/3884/java-is-pass-by-value-and-not-pass-by-reference
+2. 
+3. since the Object variable is declared and just set as the value of another Object variable, then the value should just be the same.
+4. None
+
+**should_point_to_different_object**
+1. passing by value or passing by reference. https://www.journaldev.com/3884/java-is-pass-by-value-and-not-pass-by-reference
+2. I assumed that it compares the value.
+3. since the two variables have different reference, even if it has the same value it will be seen as not equal by assertEquals
+4. None
+
+**should_initialized_to_default_value**
+1. default value. https://www.tutorialspoint.com/java/java_variable_types.htm
+2. 
+3. since the default value of String is null, int is 0 and LocalData is null
+4. None
+
+**should_pass_by_value**
+1. passing by value or passing by reference. https://www.journaldev.com/3884/java-is-pass-by-value-and-not-pass-by-reference
+2. i expected the value to be 7 since the method is static
+3. since it is a primitive type, you have to store the value in order to see the change
+4. None
+
+**should_pass_by_value_continued**
+1. passing by value or passing by reference. https://www.journaldev.com/3884/java-is-pass-by-value-and-not-pass-by-reference
+2. 
+3. you have to store the value in order to see the change
+4. None
+
+**should_modify_internal_state**
+1. passing by value or passing by reference. https://www.journaldev.com/3884/java-is-pass-by-value-and-not-pass-by-reference
+2. 
+3. since the variable's value is changed through it's setter, then it will change internally
+4. None
+
+**should_choose_method_at_compile_time**
+1. use of polymorphism in constructors. https://www.tutorialspoint.com/java/java_polymorphism.htm
+2. 
+3. since the class has multiple constructors with different arguments, it will automatically execute the constructor that matches the parameter passed
+4. None
+
+**should_choose_the_most_specific_overload**
+1. use of polymorphism in constructors. https://www.tutorialspoint.com/java/java_polymorphism.htm
+2. 
+3. since the class has multiple constructors with different arguments, it will automatically execute the constructor that matches the parameter passed
+4. None
+
+**should_calling_another_constructor**
+1. use of polymorphism in constructors. https://www.tutorialspoint.com/java/java_polymorphism.htm
+2. 
+3. since the class has multiple constructors with different arguments, it will automatically execute the constructor that matches the parameter passed
+4. None
+
+**should_get_initialization_ordering**
+1. global variables can initialize methods. https://stackoverflow.com/questions/32558900/are-java-global-variables-guaranteed-to-initialize-first
+2. I assumed that the values in logger are those values going through the constructor
+3. since the class has global variables that get its values from methods, then those methods will be excuted before the constructor
+4. None
+
+
+**should_get_message_of_var_length_parameters**
+1. object with multiple arguments. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
+2. 
+3. since passing multiple objects that can be successfully casted to string. then it will just append the value
+4. None
+
+**should_get_message_of_var_length_parameters_2**
+1. object with multiple arguments. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
+2. 
+3. since passing multiple objects that can be successfully casted to string. then it will just append the value
+4. None
+
+
