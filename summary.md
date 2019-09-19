@@ -28,7 +28,10 @@
 3. when using multiple resources in try, it will first close the last resource to be included to the first one, so in this case the logger will have {"ClosableWithException.close", "ClosableWithoutException.close"}
 4. None
 
-**should_get_method_name_in_stack_frame**
-1. the use of stacktrace to get what class and method the error occurred. https://www.geeksforgeeks.org/method-class-getname-method-in-java/
-2. 
-3. Throwable class can actually get the class and method of the when throwing an exception with the use of stacktrace, so by using it then I can get expected output
+**should_be_derived_from_object_class**
+1. all class is a subclass of Object class if there is no specified superclass. https://www.geeksforgeeks.org/inheritance-in-java/
+2. At first I set the value of expected to a new Object variable.
+3. Since SimpleEmptyClass has no defined superclass, getSuperClass() will get Object class as all classes are subclasses of Object class
+4. None
+
+
