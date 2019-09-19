@@ -34,4 +34,8 @@
 3. Since SimpleEmptyClass has no defined superclass, getSuperClass() will get Object class as all classes are subclasses of Object class
 4. None
 
-
+**should_call_super_class_constructor**
+1. how constructor works. https://www.dummies.com/programming/java/how-to-use-a-constructor-in-java/
+2. 
+3. since SuperClassWithDefaultConstructor class has a constructor to add in logs, it will first add "SuperClassWithDefaultConstructor.constructor()" before executing the constructor in DerivedFromSuperClassWithDefaultConstructor which is to add "DerivedFromSuperClassWithDefaultConstructor.constructor()"
+4. None
