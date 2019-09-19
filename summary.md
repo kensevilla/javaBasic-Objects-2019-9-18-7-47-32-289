@@ -27,3 +27,8 @@
 2. I assumed that it will close the first resource which is ClosableWithoutException so I set the expected variable to be "ClosableWithoutException.close", "ClosableWithException.close"
 3. when using multiple resources in try, it will first close the last resource to be included to the first one, so in this case the logger will have {"ClosableWithException.close", "ClosableWithoutException.close"}
 4. None
+
+**should_get_method_name_in_stack_frame**
+1. the use of stacktrace to get what class and method the error occurred. https://www.geeksforgeeks.org/method-class-getname-method-in-java/
+2. 
+3. Throwable class can actually get the class and method of the when throwing an exception with the use of stacktrace, so by using it then I can get expected output
