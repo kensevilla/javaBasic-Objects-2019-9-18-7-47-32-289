@@ -81,3 +81,52 @@
 2. 
 3. Since NestedDerivedClassWithName is the subclass of DerivedFromBaseClassWithName and DerivedFromBaseClassWithName is the subclass of BaseClassWithName then the variable of type  NestedDerivedClassWithName will be seen as a instance of all the other 2 classes
 4. None
+
+
+**should_use_instance_of_only_in_inheritance_relationship**
+1. how superclass works. https://www.oreilly.com/library/view/learning-java-4th/9781449372477/ch06s01.html
+2. 
+3. Long and Integer classes are both subclasses of Number class but they are not related, therefore variable integer is not an instance of Long
+4. None
+
+**should_write_perfect_equals_1**
+1. how to use own class declaration
+2. 
+3. Since PersonForEquals requires name and yearOfBirth, then we can compare the obj being passed to equal() by those fields
+4. None
+
+**should_write_perfect_equals_2**
+1. how to use own class declaration
+2. 
+3. Since PersonForEquals requires name and yearOfBirth, then we can compare the obj being passed to equal() by those fields
+4. None
+
+**should_write_perfect_equals_3**
+1. how to use own class declaration
+2. 
+3. Since PersonForEquals requires name and yearOfBirth, then we can compare the obj being passed to equal() by those fields
+4. None
+
+**should_write_perfect_equals_4**
+1. how to use own class declaration
+2. 
+3. Since PersonForEquals requires name and yearOfBirth, then we can compare the obj being passed to equal() by those fields
+4. None
+
+**should_write_perfect_equals_5**
+1. how to use own class declaration
+2. 
+3. Since PersonForEquals requires name and yearOfBirth, then we can compare the obj being passed to equal() by those fields
+4. None
+
+**should_write_perfect_equals_6**
+1. how to use own class declaration
+2. 
+3. Since PersonForEquals requires name and yearOfBirth, then we can compare the obj being passed to equal() by those fields
+4. None
+
+**should_write_perfect_equals_7**
+1. the use of hashcode(). https://www.baeldung.com/java-hashcode
+2. At first I do not know how hashcode works
+3. since String already has a predefined method hashCode(), I just used that and added it to the yearOfBirth to get the correct value when comparing
+4. None
